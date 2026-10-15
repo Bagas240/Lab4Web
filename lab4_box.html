@@ -1,65 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box Element</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Box Element</title>
+</head>
+<body>
+ <header>
+ <h1>Box Element</h1>
+ </header>
 
-      body {
-        margin: 0;
-        padding: 24px;
-        font-family: Arial, sans-serif;
-      }
+ <section>
+ <div class="div1">Div 1</div>
+ <div class="div2">Div 2</div>
+ <div class="div3">Div 3</div>
+ <div class="div4">Div 4</div> 
 
-      section::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
+</section>
 
-      section div {
-        float: left;
-        width: 33.333%;
-        min-height: 120px;
-        padding: 16px;
-      }
+<style>
+ div {
+ float:left;
+ padding: 10px;
+ }
+ .div1 {
+ background: red;
+ }
+ .div2 {
+ background: yellow;
+ }
+ .div3 {
+ background: green;
+ }
+ .div4 {
+ background-color: blue;
+ clear: left;
+ float: none;
+}
+</style>
 
-      .div1 {
-        background: red;
-        color: white;
-      }
-
-      .div2 {
-        background: yellow;
-      }
-
-      .div3 {
-        background: green;
-        color: white;
-      }
-
-      @media (max-width: 480px) {
-        section div {
-          float: none;
-          width: 100%;
-          min-height: 80px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Box Element</h1>
-    </header>
-
-    <section>
-      <div class="div1">Div 1</div>
-      <div class="div2">Div 2</div>
-      <div class="div3">Div 3</div>
-    </section>
-  </body>
+</body>
 </html>
