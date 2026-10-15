@@ -247,3 +247,12 @@ Halaman yang menyediakan formulir interaktif bagi pengunjung untuk mengirimkan n
 * `background-color: #1d1d1d; color: #eee; padding: 20px;`: Memberikan warna latar abu-abu sangat gelap dengan teks terang dan padding `20px`[cite: 12].
 
 ---
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20205641.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20212810.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20213405.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20213728.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20214531.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20214800.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20215324.png?raw=true)
+![image alt](https://github.com/Bagas240/Lab4Web/blob/main/image/Screenshot%202026-10-15%20215334.png?raw=true)
+
