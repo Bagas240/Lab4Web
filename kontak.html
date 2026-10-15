@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Layout Sederhana</h1>
+      </header>
+
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html" class="active" aria-current="page">Kontak</a>
+      </nav>
+
+      <main class="page-content">
+        <h2>Hubungi Kami</h2>
+        <p>
+          Isi form berikut untuk mengirim pertanyaan atau menyampaikan kebutuhan
+          proyek Anda. Kolom bertanda * wajib diisi.
+        </p>
+
+        <form class="contact-form" action="#" method="get">
+          <label for="name">Nama *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+          />
+
+          <label for="email">Email *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          />
+
+          <label for="phone">Nomor telepon</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            autocomplete="tel"
+          />
+
+          <label for="subject">Subjek *</label>
+          <select id="subject" name="subject" required>
+            <option value="">Pilih subjek</option>
+            <option value="web-design">Desain website</option>
+            <option value="web-development">Pembuatan website</option>
+            <option value="other">Lainnya</option>
+          </select>
+
+          <label for="message">Pesan *</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Universitas Pelita Bangsa.</p>
+      </footer>
+    </div>
+  </body>
+</html>
